@@ -7,5 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: check environment TEST
-        run: echo ${{ vars.TEST == "hello" && "yes" || "no" }}
+        run: echo ${{ vars.TEST == 'hello' && "yes" || "no" }}
        
